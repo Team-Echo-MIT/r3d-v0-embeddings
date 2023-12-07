@@ -9,3 +9,6 @@ Repository Name Etymology
 * `R3D` - name of the transformer model used to learn the embeddings
 * `V0` - version of the model (this is the first version of our model)
 * `embeddings` - our focus is on the embeddings that the model learned for each echocardiogram
+
+Contributors:
+> Daniel Chung <br /> Mindy Somin Lee <br /> Vasu Kaker <br /> Yongyi Zhao
