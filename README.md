@@ -11,4 +11,4 @@ Repository Name Etymology
 * `embeddings` - our focus is on the embeddings that the model learned for each echocardiogram
 
 Contributors:
-> Daniel Chung `djaechung` <br /> Mindy Somin Lee `mindyslee` <br /> Vasu Kaker `VasuKaker` <br /> Yongyi Zhao ``
+> Daniel Chung `djaechung` <br /> Mindy Somin Lee `mindyslee` <br /> Vasu Kaker `VasuKaker` <br /> Yongyi Zhao
