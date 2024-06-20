@@ -10,9 +10,9 @@ How to generate your own echo embeddings:
 * Navigate to your workspace or desktop
 * `git clone git@github.com:Team-Echo-MIT/r3d-v0-embeddings.git` - clone this repository into your workspace
 * Navigate to the cloned repository in your workspace
-* Put echocardiograms to embed as .avi files in the `echos` subdirectory
+* Put echocardiograms to embed as .avi files in the `embedder/echos` subdirectory
 * Run the extraction script in the terminal: `python generate_echo_embeddings.py <your-path>/embedder/echos <your-path>/embedder/r3d_binary_111723.pt <your-path>/embedder/tensor_board`
-* Embeddings should be written to a txt file in the `embeddings` subdirectory
+* Embeddings should be written to a txt file in the `embedder/embeddings` subdirectory
 
 Repository Name Etymology
 * `R3D` - name of the transformer model used to learn the embeddings
