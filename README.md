@@ -1,5 +1,5 @@
 # r3d_v0_embeddings
-This repository contains vector embeddings for the EchoNet dataset and is intended as a resource for future AI researchers in Cardiology.
+This repository contains vector embeddings for the EchoNet dataset and the trained model that extracted them. It is intended as a resource for future AI researchers in Cardiology.
 
 # The Embeddings
 In the base directory there is one file containing the best 400-dimensional embeddings learned in the paper
