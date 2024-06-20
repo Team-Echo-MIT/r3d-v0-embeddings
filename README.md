@@ -14,7 +14,7 @@ How to generate your own echo embeddings:
 * Run the extraction script in the terminal: `python generate_echo_embeddings.py <your-path>/embedder/echos <your-path>/embedder/r3d_binary_111723.pt <your-path>/embedder/tensor_board` (replace `<your-path>` with the path leading to the embedder directory in your workspace)
 * Embeddings will be written to a txt file in the `embedder/embeddings` subdirectory (this may take a few minutes)
 
-Repository Name Etymology
+# Repository Name Etymology
 * `R3D` - name of the transformer model used to learn the embeddings
 * `V0` - version of the model (this is the first version of our model)
 * `embeddings` - our focus is on the embeddings that the model learned for each echocardiogram
