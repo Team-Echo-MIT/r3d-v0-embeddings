@@ -9,5 +9,14 @@ Repository Name Etymology
 * `V0` - version of the model (this is the first version of our model)
 * `embeddings` - our focus is on the embeddings that the model learned for each echocardiogram
 
+How to generate your own echo embeddings:
+* `git clone <FIXME>` - clone this repository into your workspace
+* Navigate to the cloned repository in your workspace
+* Put echocardiograms to embed as .avi files in the `echos` subdirectory
+* In terminal: `python generate_echo_embeddings.py <path-to-echos-subdirectory> <path-to->`
+* Embeddings should be written to a txt file in the `embeddings` subdirectory
+
+
+
 Contributors:
 > Daniel Chung `djaechung` <br /> Mindy Somin Lee `mindyslee` <br /> Vasu Kaker `VasuKaker` <br /> Yongyi Zhao
