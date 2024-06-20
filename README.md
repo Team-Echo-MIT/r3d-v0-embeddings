@@ -7,6 +7,7 @@ In the base directory there is one file containing the best 400-dimensional embe
 
 # The Model
 How to generate your own echo embeddings:
+* Navigate to your workspace or desktop
 * `git clone git@github.com:Team-Echo-MIT/r3d-v0-embeddings.git` - clone this repository into your workspace
 * Navigate to the cloned repository in your workspace
 * Put echocardiograms to embed as .avi files in the `echos` subdirectory
