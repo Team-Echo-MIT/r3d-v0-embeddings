@@ -3,7 +3,7 @@ This repository contains vector embeddings for the EchoNet dataset and the train
 
 # The Embeddings
 In the base directory there is one file containing the best 400-dimensional embeddings learned in the paper
-* `echonet_embeddings.txt.gz`: 400-dimensional embeddings of the 10,030 echocardiogram videos from the EchoNet dataset, learned from the R3D transformer model we developed in our paper. Each embedding vector is identifiable by the video ID of the echocardiogram it represents. Those video IDs and the entire EchoNet dataset can be found at this link: https://stanfordaimi.azurewebsites.net/datasets/834e1cd1-92f7-4268-9daa-d359198b310a
+* `echonet_embeddings.txt`: 400-dimensional embeddings of the 10,030 echocardiogram videos from the EchoNet dataset, learned from the R3D transformer model we developed in our paper. Each embedding vector is identifiable by the video ID of the echocardiogram it represents. Those video IDs and the entire EchoNet dataset can be found at this link: https://stanfordaimi.azurewebsites.net/datasets/834e1cd1-92f7-4268-9daa-d359198b310a
 
 # The Model
 This repository also contains our trained model, `embedder/r3d_binary_111723.pt`. Here's how to generate your own echo embeddings using it:
