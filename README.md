@@ -11,7 +11,7 @@ This repository also contains our trained model, `embedder/r3d_binary_111723.pt`
 * `git clone git@github.com:Team-Echo-MIT/r3d-v0-embeddings.git` - clone this repository into your workspace
 * Navigate to the cloned repository in your workspace
 * Put echocardiograms to embed as .avi files in the `embedder/echos` subdirectory
-* Run the extraction script in the terminal: `python generate_echo_embeddings.py <your-path>/embedder/echos <your-path>/embedder/r3d_o_sp4.pt <your-path>/embedder/tensor_board` (replace `<your-path>` with the path leading to the embedder directory in your workspace)
+* Run the extraction script in the terminal: `python generate_echo_embeddings.py <your-path>/embedder/echos <your-path>/embedder/r3d_binary_111723.pt <your-path>/embedder/tensor_board` (replace `<your-path>` with the path leading to the embedder directory in your workspace)
 * Embeddings will be written to a txt file in the `embedder/embeddings` subdirectory (this may take a few minutes)
 
 # Repository Name Etymology
